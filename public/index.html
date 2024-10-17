@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="index-banner" class="teal darken-4">
+        <div class="section">
+            <div class="container">
+                <h1 class="header center white-text text-lighten-2">Formulario de contacto</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <div class="card-panel">
+                    <form id="userForm">
+                        <div class="input-field">
+                            <input id="nombre" name="nombre" type="text" required>
+                            <label for="nombre" class="active">Nombre</label>
+                        </div>
+                        <div class="input-field">
+                            <input id="email" name="email" type="email" required>
+                            <label for="email" class="active">Correo electrónico</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea id="mensaje" name="mensaje" class="materialize-textarea" required></textarea>
+                            <label for="mensaje" class="active">Mensaje</label>
+                        </div>
+                        <input type="submit" value="Enviar" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

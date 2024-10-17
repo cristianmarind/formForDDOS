@@ -1,0 +1,47 @@
+.tooltipped:hover{
+    background:#efefef;
+}
+
+.word-input{
+    border-color:#fff !important;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin: 15px 0;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+/* Custom styles for input fields */
+.input-field input:focus + label, 
+.input-field textarea:focus + label, 
+.input-field input:not(:placeholder-shown) + label, 
+.input-field textarea:not(:placeholder-shown) + label {
+    transform: translateY(-14px);
+    font-size: 12px;
+    color: #26a69a; /* Materialize teal */
+}
+
+.input-field input:focus, 
+.input-field textarea:focus {
+    border-bottom: 2px solid #26a69a !important;
+    box-shadow: none !important;
+}
