@@ -6,7 +6,7 @@ const { MongoClient } = require('mongodb');
 const app = express();
 const port = 8080;
 
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://cristianmarind:8pGiU0PaqFMH6vPv@comunicaciones.84qcb.mongodb.net/?retryWrites=true&w=majority&appName=comunicaciones';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(express.static('public'));
